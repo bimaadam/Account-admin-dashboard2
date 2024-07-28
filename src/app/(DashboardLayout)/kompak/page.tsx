@@ -4,15 +4,15 @@ import PageContainer from '@/app/(DashboardLayout)/components/container/PageCont
 import DashboardCard from '@/app/(DashboardLayout)/components/shared/DashboardCard';
 
 
-const SamplePage = () => {
+const kompak = () => {
   return (
-    <PageContainer title="Sample Page" description="this is Sample page">
-      <DashboardCard title="Sample Page">
+    <PageContainer title="Komputerisasi Akuntansi" description="this is kompak">
+      <DashboardCard title="kompak">
         <Typography>This is a sample page</Typography>
       </DashboardCard>
     </PageContainer>
   );
 };
 
-export default SamplePage;
+export default kompak;
 

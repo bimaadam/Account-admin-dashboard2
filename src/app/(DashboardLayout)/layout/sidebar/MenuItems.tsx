@@ -9,6 +9,7 @@ import {
 } from "@tabler/icons-react";
 
 import { uniqueId } from "lodash";
+import { title } from "process";
 
 const Menuitems = [
   {
@@ -66,10 +67,22 @@ const Menuitems = [
   },
   {
     id: uniqueId(),
-    title: "Sample Page",
+    title: "Komputerisasi Akuntansi",
     icon: IconAperture,
-    href: "/sample-page",
+    href: "/kompak",
   },
+  {
+    id: uniqueId(),
+    title: "Manajemen",
+    icon: IconAperture,
+    href: "/manajemen",
+  },
+  {
+    id: uniqueId(),
+    title: "Perbankan",
+    icon: IconAperture,
+    href: "/perbankan",
+  }
 ];
 
 export default Menuitems;
