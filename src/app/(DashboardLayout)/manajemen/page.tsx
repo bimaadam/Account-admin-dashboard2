@@ -8,7 +8,7 @@ const manajemen = () => {
   return (
     <PageContainer title="Manajemen" description="this is manajemen">
       <DashboardCard title="manajemen">
-        <Typography>This is a sample page</Typography>
+        <Typography>Males Gua Cok Akhir Akhir ini</Typography>
       </DashboardCard>
     </PageContainer>
   );

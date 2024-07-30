@@ -24,6 +24,12 @@ const Menuitems = [
     href: "/",
   },
   {
+    id: uniqueId(),
+    title: "My Profile",
+    icon: IconMoodHappy,
+    href: "/myprofile",
+  },
+  {
     navlabel: true,
     subheader: "Utilities",
   },
